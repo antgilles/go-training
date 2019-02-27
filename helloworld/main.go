@@ -12,6 +12,13 @@ func sumNamedReturn(x, y, z int) (sum int, name string){
 	return
 }
 func main() {
+	var names [3]string
+	names[0]="Alice"
+	names[2]="Charly"
+	names2 := [4]string {"toto", "tata"}
+	fmt.Printf("name = %v (len = %v) \n", names, len(names))
+	fmt.Printf("name = %v (len = %v) \n", names2, len(names2))
+
 	fmt.Println(strings.ToUpper("Hello World, welcome to ags training"))
 	fmt.Println(data.Name, data.Password)
 	if data.Age > 10 {
