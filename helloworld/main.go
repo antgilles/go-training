@@ -52,4 +52,10 @@ func main() {
 	for i := 0; i < 5; i++ {
 		println("loop :", i)
 	}
+
+	// range
+	sl := []string {"toto", "tata"}
+	for i, name := range(sl) {
+		println(i, name)
+	}
 }
