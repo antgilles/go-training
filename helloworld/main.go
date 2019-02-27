@@ -47,4 +47,9 @@ func main() {
 	// Package and public/private vars/func
 	utils.Hello("Tonio")
 	fmt.Println(sumNamedReturn(1,2,3))
+
+	// loop for
+	for i := 0; i < 5; i++ {
+		println("loop :", i)
+	}
 }
